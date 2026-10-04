@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="peachGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF9E7D" />
+      <stop offset="100%" stop-color="#FF6584" />
+    </linearGradient>
+    <linearGradient id="warmGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD166" />
+      <stop offset="100%" stop-color="#FA824C" />
+    </linearGradient>
+    <filter id="shadow" x="-4" y="-4" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#FF6584" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="20" fill="#FFF6F1" />
+  <g filter="url(#shadow)">
+    <!-- Back card / heart -->
+    <path d="M22 26 C17 18, 8 24, 12 34 C16 44, 25 49, 25 49 C25 49, 34 44, 38 34 C42 24, 33 18, 28 26 Z" fill="url(#warmGrad)" transform="translate(6, 2) scale(0.85)" opacity="0.9"/>
+    <!-- Front card / heart -->
+    <path d="M36 22 C30 13, 20 20, 24 31 C29 42, 39 48, 39 48 C39 48, 49 42, 54 31 C58 20, 48 13, 42 22 Z" fill="url(#peachGrad)"/>
+    <!-- Sparkle -->
+    <circle cx="48" cy="16" r="3" fill="#FFE27A" />
+    <circle cx="16" cy="42" r="2" fill="#FFAAA6" />
+  </g>
+</svg>

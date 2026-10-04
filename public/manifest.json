@@ -1,0 +1,16 @@
+{
+  "short_name": "DuoDay",
+  "name": "DuoDay - Daily Updates Between Us",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFF9F5",
+  "theme_color": "#FF8E72",
+  "display": "standalone",
+  "orientation": "portrait"
+}
